@@ -1,5 +1,5 @@
-import Header from "../../../components/Header";
-import UserCombobox from "../../../components-user/UserCombobox";
+import Header from "@/components/Header";
+import UserCombobox from "@/components-user/UserCombobox";
 
 export default function Home() {
   return (

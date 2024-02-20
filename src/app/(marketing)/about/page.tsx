@@ -1,5 +1,5 @@
-import Header from "../../../components/Header";
-import UserDatePicker from "../../../components-user/UserDatePicker";
+import Header from "@/components/Header";
+import UserDatePicker from "@/components-user/UserDatePicker";
 
 export default function Home() {
   return (
