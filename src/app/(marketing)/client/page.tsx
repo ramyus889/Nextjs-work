@@ -1,5 +1,5 @@
-import UserToast from "../../components-user/UserToast";
-import Header from "../../components/Header";
+import UserToast from "../../../components-user/UserToast";
+import Header from "../../../components/Header";
 
 export default function Client() {
   return (

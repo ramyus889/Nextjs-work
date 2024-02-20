@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import UserResizable from "@/components-user/UserResizable";
+import UserDrawer from "@/components-user/UserDrawer";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -9,8 +10,11 @@ export default function Home() {
   return (
     <div className="">
       <Header />
-      <div className="text-[20px] container mx-[600px] mt-20 font-['Permanent_Marker']  flex flex-col gap-10">
+      <div className="text-[20px] container mx-[600px] mt-20   flex flex-col gap-10">
         <UserResizable />
+        <div className="inline-block">
+          <UserDrawer />
+        </div>
         <div className="inline-block">
           <button
             className="border py-2 px-4 rounded-xl"
@@ -36,6 +40,7 @@ export default function Home() {
           Box
         </motion.div>
       </div>
+      <div className=""></div>
     </div>
   );
 }

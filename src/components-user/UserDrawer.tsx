@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Minus, Plus } from "lucide-react";
 import { Bar, BarChart, ResponsiveContainer } from "recharts";
-
+import ToastUser from "../components/ToastUser";
 import { Button } from "@/components-ui/ui/button";
 import {
   Drawer,
@@ -120,7 +120,7 @@ export default function DrawerDemo() {
             </div>
           </div>
           <DrawerFooter>
-            <Button>Submit</Button>
+            <ToastUser />
             <DrawerClose asChild>
               <Button variant="outline" className="text-white">
                 Cancel

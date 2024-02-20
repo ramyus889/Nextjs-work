@@ -23,10 +23,18 @@ export default function Client() {
         Click to Settings
       </Link>
       <Link
-        className={` ps-5 ${pathname === "/client" ? "text-red-500" : ""}`}
+        className={` border-r-2 pe-5 ps-5 ${
+          pathname === "/client" ? "text-red-500" : ""
+        }`}
         href="/client"
       >
         Click to Client
+      </Link>
+      <Link
+        className={` ps-5 ${pathname === "/about" ? "text-red-500" : ""}`}
+        href="/about"
+      >
+        Click to Date
       </Link>
     </header>
   );
